@@ -40,7 +40,7 @@ cloudflared tunnel login
 
 # 启动隧道
 echo "正在启动 Cloudflare 隧道..."
-cloudflared tunnel run $TUNNEL_NAME
+cloudflared tunnel run $TUNNEL_NAME --origincert /cert.pem
 #```
 
 #在这个脚本中，我们只更改了 `LOCAL_PORT` 变量的值为 `3001`。如果您还需要更改其他变量，请根据您的需求进行修改。
