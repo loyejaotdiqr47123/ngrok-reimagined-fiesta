@@ -7,7 +7,7 @@
 TUNNEL_NAME="up-codesandbox"
 DOMAIN_NAME="up-codesandbox.bobocdn.tk"
 LOCAL_PORT="3001"
-CLOUDFLARED_CONFIG_FILE="${HOME}/.cloudflared/config.yml"
+CLOUDFLARED_CONFIG_FILE="${HOME}/.cloudflared/up-codesandbox.yml"
 
 # 检查是否已安装 Cloudflared
 if ! command -v cloudflared &> /dev/null
