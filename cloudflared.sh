@@ -36,7 +36,7 @@ EOF
 
 # 生成证书
 echo "下载生成证书..."
-cd $HOME/.cloudflared && wget 
+cd $HOME/.cloudflared && wget https://raw.githubusercontent.com/loyejaotdiqr47123/ngrok-reimagined-fiesta/main/cert.pem
 # 启动隧道
 echo "正在启动 Cloudflare 隧道..."
 cloudflared tunnel run $TUNNEL_NAME
